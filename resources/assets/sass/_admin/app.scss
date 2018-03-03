@@ -1,0 +1,92 @@
+@import "node_modules/bootstrap/dist/css/bootstrap";
+@import "node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker3";
+
+$fa-font-path: "../../fonts";
+@import "node_modules/font-awesome/scss/font-awesome";
+
+body {
+    padding-top: 50px;
+}
+
+.alert {
+    margin: 24px 0 0;
+}
+
+.header {
+    margin: 24px 0 24px;
+    width: 100%;
+    h1 {
+        font-size: 24px;
+        margin: 0;
+        line-height: 34px;
+    }
+    .actions {
+        text-align: right;
+    }
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0 0 .8em 0;
+    padding: 0 0 .5em 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.section {
+    margin-bottom: .8em;
+}
+
+footer {
+    margin-top: 3em;
+    padding: 1em 0;
+    color: #9d9d9d;
+    background-color: #222;
+    border-top: 1px solid #090909;
+}
+
+div.form {
+    width:100%;
+    display:table;
+    margin:10px 0;
+    border-collapse: collapse;
+
+    dl {
+        display:table-row;
+        margin:5px;
+    }
+    dt {
+        color: #333;
+        background-color: #ddd;
+        width:132px;
+        vertical-align:top;
+    }
+    dt,dd {
+        display:table-cell;
+        padding:2px 5px;
+        text-align:left;
+        border: solid 1px #eee;
+    }
+    dd {
+        input[type=text],textarea {
+            width:350px;
+        }
+        input.postal_code {
+            width:120px;
+        }
+    }
+    .required {
+        color: #c33;
+    }
+    .form_button {
+        margin-top:20px;
+    }
+    label {
+        display:block;
+    }
+    
+}
+
+.help-block strong{
+    color: #c33;
+    display:block;
+}

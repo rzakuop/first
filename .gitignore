@@ -1,0 +1,16 @@
+/node_modules
+/public/storage
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+package-lock.json
+.env
+.vagrant/
+/.php_cs.cache
+/public/image/*
+/storage/image
+/package
+/logs
+/cgi-bin/contact/data
+.DS_Store
