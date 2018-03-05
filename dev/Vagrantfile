@@ -6,7 +6,7 @@ Vagrant.configure(2) do |config|
 
   config.vm.hostname = "moving"
 
-  config.vm.network :private_network, ip: '192.168.88.16'
+  config.vm.network :private_network, ip: '192.168.88.20'
 
   config.vm.network "forwarded_port", guest: 80, host: 8081
 
